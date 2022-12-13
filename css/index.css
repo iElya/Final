@@ -69,7 +69,7 @@
 }
 .menu ul li a:hover{
     cursor: pointer;
-    color: lightgrey;
+    color: #ccc;
     transition: 0.5s;
 }
 .section1{
@@ -115,66 +115,104 @@
     justify-content: center;
     align-items: center;
 }
-.icons_e i{
-    color: lightgray;
-    margin-left: 10px;
+
+.df{
+    width: 40px;
+    min-height: 40px;
+    float: left;
+    background-color: transparent;
+    margin-left: 18px;
+    margin-top: -30px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.e_f{
+    color: #1458AB;
+    font-size: 20px;
+}
+.e_t{
+    color: #1DA1F2;
+    font-size: 20px;
+}
+.e_d{
+    color: #C32361;
+    font-size: 20px;
+}
+.e_i{
+    color: #7A36AD;
+    font-size: 20px;
 }
 .section2{
     width: 100%;
-    min-height: 450px;
+    min-height: 550px;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.e_text{
-    width: 750px;
-    min-height: 300px;
-    float: left;
-}
-.e_txt{
-    width: 750px;
+.e_about{
+    width: 100%;
     min-height: 250px;
     float: left;
+    
 }
-.e_txt h1 strong{
-    color: #000;
+.e_txt{
+    width: 100%;
+    min-height: 200px;
+    float: left;
 }
-.e_txt h1{
-    font-size: 30px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 0;
-    color: 	rgb(81,87,105);
-}
-.e_txt p{
-    font-size: 15px;
-    line-height: 24px;
-    letter-spacing: 1px;
-    height: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(81,87,105);
-
-}
-.e_btn1{
-    width: 750px;
+.e_btttn{
+    width: 100%;
     min-height: 50px;
     float: left;
     display: flex;
     align-items: center;
+
 }
-.e_btnn{
-    border: 1px solid black;
+.r_btn{
     background-color: transparent;
-    color: black;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }
-.e_btnn:hover{
-    cursor: pointer;
-    color: white;
+.r_btn:hover{
     background-color: #000;
+    color: white;
     transition: 0.5s;
 }
+.e_txt h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.e_txt h2 strong{
+    color: #000;
+    font-weight: 700;
+}
+.e_txt p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    color: #515769;
+}
+
+
+
+
+
+
+
+
 
 .section3{
     width: 100%;
@@ -236,3 +274,62 @@
     color: #515769;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
