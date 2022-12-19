@@ -504,7 +504,44 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/1.jpg");
+    background: rgba(0, 0, 0, 0.2)url("../img/1.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph1:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/1.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph2:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/2.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph3:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/3.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph4:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/4.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph5:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/5.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ph6:hover{
+    background: rgba(0, 0, 0, 0.7)url("../img/6.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -514,7 +551,8 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/2.jpg");
+    background: rgba(0, 0, 0, 0.2)url("../img/2.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -524,7 +562,8 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/3.jpg");
+    background: rgba(0, 0, 0, 0.2)url("../img/3.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -534,7 +573,8 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/4.jpg");
+    background: rgba(0, 0, 0, 0.2)url("../img/4.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -544,7 +584,8 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/5.jpg");
+    background: rgba(0, 0, 0, 0.2)url("../img/5.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -554,7 +595,8 @@
     float: left;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/6.jpg");
+    background:rgba(0, 0, 0, 0.2)url("../img/6.jpg");
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -571,6 +613,7 @@
 .ph1 a , .ph2 a , .ph3 a , .ph4 a, .ph5 a , .ph6 a {
     text-decoration: none;
 }
+
 figure{
     width: 100%;
     min-height: 280px;
