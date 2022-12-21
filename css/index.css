@@ -3,6 +3,7 @@
     min-height: 100px;
     float: left;
     position: fixed;
+    z-index: 90;
 }
 .e_nav1{
     width: 100%;
@@ -10,6 +11,10 @@
     float: left;
     transition: .4s linear;
 } 
+.nav{
+    width: 100%;
+    position: fixed;
+}
 
 
 
