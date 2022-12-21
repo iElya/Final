@@ -1,24 +1,27 @@
-
 .e_nav{
     width: 100%;
     min-height: 100px;
     float: left;
-    background-color: black;
+    position: fixed;
 }
 .e_nav1{
     width: 100%;
-    min-height: 100px;
+    height: 80px;
     float: left;
-}
+    transition: .4s linear;
+} 
+
+
+
 .logo{
     min-width: 100px;
-    min-height: 100px;
+    min-height: 80px;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 20px;
-}
+} 
 .logo a{
     color: #fff;
     text-transform: capitalize;
@@ -32,7 +35,7 @@
 }
 .menu{
     min-width: 100px;
-    min-height: 100px;
+    min-height: 80px;
     float: right;
     display: flex;
     justify-content: center;
@@ -72,7 +75,9 @@
     cursor: pointer;
     color: #ccc;
     transition: 0.5s;
-}
+} 
+
+
 .section1{
     width: 100%;
     min-height: 650px;
@@ -82,51 +87,43 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-}
+} 
 .center{
     width: 100%;
-    min-height: 550px;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.e_cent{
-    width: 500px;
-    min-height: 200px;
-    float: left;
-}
-.typing_e{
-    width: 500px;
     min-height: 150px;
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 300px;
 }
-.typing_e h2{
+.w_e{
+    width: 100%;
+    min-height: 100px;
+    float: left;
+}
+.w_e h2{
     color: #fff;
-    font-weight: 900;
     font-size: 45px;
+    font-weight: 900;
+    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+
 }
-.icons_e{
-    width: 500px;
+.e_iicons{
+    width: 100%;
     min-height: 50px;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 .df{
     width: 40px;
     min-height: 40px;
     float: left;
     background-color: transparent;
     margin-left: 18px;
-    margin-top: -30px;
+    margin-top: -20px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, .5);
     display: flex;
@@ -149,7 +146,17 @@
 .e_i{
     color: #7A36AD;
     font-size: 20px;
-}
+} 
+
+
+
+
+
+
+
+
+
+
 .section2{
     width: 100%;
     min-height: 550px;
