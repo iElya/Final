@@ -1,3 +1,104 @@
+
+#preloader-area {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.loader {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center
+}
+
+.loader div {
+    display: inline-block;
+    background-color: #000;
+    width: 14px;
+    height: 14px;
+    margin: 3px;
+    border-radius: 50%;
+    -webkit-animation: bouncedelay 2s infinite ease-in-out;
+    animation: bouncedelay 2s infinite ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    background: rgba(255, 255, 255, 0);
+    -webkit-transition: ease-out .3s;
+    transition: ease-out .3s
+}
+
+.loaded #loader-wrapper,
+.loaded .loader {
+    -webkit-transition: ease-out .3s;
+    -moz-transition: ease-out .3s;
+    -o-transition: ease-out .3s
+}
+
+.loaded .loader {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: ease-out .3s;
+    transition: ease-out .3s
+}
+
+.loader .bounce1 {
+    -webkit-animation-delay: -.32s;
+    animation-delay: -.32s
+}
+
+.loader .bounce2 {
+    -webkit-animation-delay: -.16s;
+    animation-delay: -.16s
+}
+
+@-webkit-keyframes bouncedelay {
+    0%,
+    100%,
+    80% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes bouncedelay {
+    0%,
+    100%,
+    80% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 .e_nav{
     width: 100%;
     min-height: 100px;

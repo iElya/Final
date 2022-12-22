@@ -40,3 +40,9 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+// preloader
+$(window).on('load', function () {
+    $('.loader').fadeOut();
+    $('#preloader-area').delay(350).fadeOut('slow');
+});
