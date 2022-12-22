@@ -3,7 +3,6 @@
     min-height: 100px;
     float: left;
     position: fixed;
-    z-index: 90;
 }
 .e_nav1{
     width: 100%;
@@ -11,10 +10,26 @@
     float: left;
     transition: .4s linear;
 } 
+
+.s_nav{
+    width: 100%;
+    min-height: 70px;
+    position: fixed;
+    transition: 0.6s;
+    z-index: 90;
+}
+
 .nav{
     width: 100%;
+    min-height: 100px;
     position: fixed;
+    transition: 0.6s;
+    z-index: 90;
 }
+.sticky{
+    background-color: #000;
+}
+
 
 
 
@@ -104,6 +119,7 @@
     min-height: 100px;
     float: left;
 }
+
 .w_e h2{
     color: #fff;
     font-size: 45px;
