@@ -561,14 +561,14 @@
 
 .section5{
     width: 100%;
-    min-height: 200px;
+    min-height: 500px;
     float: left;
     background: #FAFAFA;
     margin-bottom: 40px;
 }
 .e_bggg{
     width: 100%;
-    min-height: 200px;
+    min-height: 500px;
     float: left;
     background: #FAFAFA;
 
@@ -602,11 +602,11 @@
     color: #ffffff;
     text-align: center;
     display: none;
-  }
+}
   
-  .show {
+.show {
     display: block;
-  }
+}
   
   
   
