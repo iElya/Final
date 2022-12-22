@@ -28,6 +28,7 @@
 }
 .sticky{
     background-color: #000;
+
 }
 
 
@@ -180,7 +181,7 @@
 
 .section2{
     width: 100%;
-    min-height: 550px;
+    min-height: 520px;
     float: left;
     display: flex;
     justify-content: center;
