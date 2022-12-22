@@ -307,18 +307,20 @@
                                                 <h1>My recent works.</h1>
                                             </div>
                                             <div class="workss">
-                                                <ul>
-                                                    <li class="fl active">all</li>
-                                                    <li class="filter" data-filter=".webdesign">webdesign</li>
-                                                    <li class="filter" data-filter=".development">development</li>
-                                                    <li class="filter" data-filter=".photography">photography</li>
-                                                </ul>
+                                                <div id="myBtnContainer">
+                                                    <ul>
+                                                        <li class="filter active" onclick="filterSelection('all')"> ALL</li>
+                                                        <li class="filter" onclick="filterSelection('webdesign')"> WEBDESIGN</li>
+                                                        <li class="filter" onclick="filterSelection('development')"> DEVELOPMENT</li>
+                                                        <li class="filter" onclick="filterSelection('photography')"> PHOTOGRAPHY</li>
+                                                    </ul>
+                                                </div>
                                             </div>
         
                                             <div class="ph_workss">
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix webdesign">
                                                     <div class="row">
                                                         <div class="ph1" data-toggle="modal" data-target="#myModal">
                                                             <a href="#">
@@ -337,7 +339,7 @@
                                                 </div>
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix development">
                                                     <div class="row">
                                                         <div class="ph2">
                                                             <a href="">
@@ -357,7 +359,7 @@
         
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix photography webdesign">
                                                     <div class="row">
                                                         <div class="ph3">
                                                             <a href="">
@@ -377,7 +379,7 @@
         
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix development">
                                                     <div class="row">
                                                         <div class="ph4">
                                                             <a href="">
@@ -397,7 +399,7 @@
         
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix development webdesign">
                                                     <div class="row">
                                                         <div class="ph5">
                                                             <a href="">
@@ -417,7 +419,7 @@
         
         
         
-                                                <div class="col-md-4 col-sm-6">
+                                                <div class="col-md-4 col-sm-6 mix photography">
                                                     <div class="row">
                                                         <div class="ph6">
                                                             <a href="">
@@ -435,10 +437,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-        
-        
-        
-        
                                         </div>
                                     </div>
                                 </div>

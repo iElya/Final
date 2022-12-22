@@ -557,16 +557,18 @@
 }
 
 
+
+
 .section5{
     width: 100%;
-    min-height: 800px;
+    min-height: 200px;
     float: left;
     background: #FAFAFA;
     margin-bottom: 40px;
 }
 .e_bggg{
     width: 100%;
-    min-height: 800px;
+    min-height: 200px;
     float: left;
     background: #FAFAFA;
 
@@ -595,7 +597,22 @@
     justify-content: center;
     align-items: center;
 }
-.workss ul{
+.mix {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  
+  
+  /* Style the buttons */
+  
+  .workss ul{
     padding: 0;
     list-style: none;
     text-align: center;
@@ -620,7 +637,7 @@
     font-size: 12px;
     border-bottom: 2px solid transparent;
 }
-.workss  ul li.active {
+.workss ul li.active {
     color: #000;
     border-bottom: 2px solid #000;
 }
@@ -848,6 +865,16 @@ figure:hover p{
     visibility: visible;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 .section6{
     width: 100%;
