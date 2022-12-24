@@ -16,7 +16,7 @@ window.onscroll = () => {
 // typing text
 var typed = new Typed(".auto-type" , {
     strings: ["I'm Jonathon Doe" , "I'm Web Developer" , "Lives in UK"],
-    typeSpeed: 200,
+    typeSpeed: 50,
     backSpeed: 50,
     startDelay: 500,
     loop: true,
@@ -79,3 +79,6 @@ $(document).on("scroll", function() {
 $(document).ready(function(){
   var mixer = mixitup('.ph_workss')
 });
+
+
+// popup
