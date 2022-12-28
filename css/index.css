@@ -223,6 +223,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
+    background-position: center;
+
 } 
 .center{
     width: 100%;
