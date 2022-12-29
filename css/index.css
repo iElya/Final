@@ -1078,6 +1078,24 @@ figure:hover p{
 	height: 11px;
     background-color: #333;
  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1365,12 +1383,7 @@ figure:hover p{
         background-color: #000;
     }
     
-    
-   
-    
-    
-    
-    
+
     .footer-social-link{
         display: flex;
         justify-content: center;
@@ -1392,11 +1405,16 @@ figure:hover p{
     .ph1,  .ph2,  .ph3,  .ph4,  .ph5,  .ph6 {
         margin-bottom: 10px;
     }
+    .carusel{
+        width: 490px;
+        min-height: 280px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+    
     
     .mul{
         display: grid;
@@ -1419,6 +1437,10 @@ figure:hover p{
     .ph1,  .ph2,  .ph3,  .ph4,  .ph5,  .ph6 {
         margin-bottom: 10px;
     }
+    .carusel{
+        width: 600px;
+        min-height: 280px;
+    }
     
     
 }
@@ -1428,6 +1450,7 @@ figure:hover p{
     .menu ul li .ooo{
         padding: 10px;
     }
+    
     .mul{
         display: grid;
     }
@@ -1447,12 +1470,20 @@ figure:hover p{
         align-items: center;
         text-align: center;
     }
+    
+
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .carusel{
+        width: 650px;
+        min-height: 280px;
+    }
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
