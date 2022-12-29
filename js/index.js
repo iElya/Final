@@ -1,15 +1,11 @@
 // navbar scroll
 
-window.onscroll = () => {
-    let nav = document.querySelector('nav');
-    if(window.pageYOffset > 0){
-        nav.classList.add('sticky');
-    }
-    else{
-        nav.classList.remove('sticky');
-
-    }
-}
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
 
 
 
@@ -81,5 +77,5 @@ $(document).ready(function(){
 });
 
 
-// burger
+
 
